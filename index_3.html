@@ -12,14 +12,12 @@
     <p id="myText">This is some text.</p>
 </body>
 <script>
-    // GET THE BUTTON AND PARAGRAPH
-    const myButton = document.getElementById("myButton");
-    const myText = document.getElementById("myText");
-​
-    // ADD EVENT LISTENER TO THE BUTTON
-    myButton.addEventListener("click", function(){
-        // CHANGE THE TEXT
-        myText.innerText = "The button has been clicked";
-    })
+// GET THE BUTTON AND PARAGRAPH
+const myButton = document.getElementById("myButton");
+const myText = document.getElementById("myText");
+// ADD EVENT LISTENER TO THE BUTTON
+myButton.addEventListener("click", function(){
+    myText.innerText = "The button has been clicked"
+});    
 </script>
 </html>
